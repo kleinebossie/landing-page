@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+header {
+  display: flex;
+  padding: 16px 200px;
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  height: 300px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 8px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  border: 2px solid #3882f6;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hero {
+  padding: 84px 200px 100px;
+  background-color: #1f2937;
+  gap: 40px;
+}
+
+.hero-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero-subtext {
+  color: #e5e7eb;
+}
+
+.placeholder {
+  background-color: hsl(214deg 7% 46%);
+  color: #e5e7eb;
+  width: 525px;
+  height: 250px;
+  flex: 1 0 auto;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-signup:hover {
+  border-color: #3882f6;
+  color: #3882f6;
+  background-color: #fff;
+}
+
+.info {
+  background-color: #f9faf8;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+}
+
+.card-media {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+}
